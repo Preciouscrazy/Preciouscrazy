@@ -1,125 +1,122 @@
-<!--
-PRECIOUS'S GITHUB PROFILE
-Repository name: preciouscrazy
-File: README.md
--->
-
 <div align="center">
 
 # ✦ PRECIOUS ✦
 
-### CREATIVE ENGINEER · GAME DEVELOPER · DESIGN THINKER
+### CREATIVE ENGINEER · SOFTWARE DEVELOPMENT · GAME SYSTEMS
 
 **Where creativity meets code, and ideas become interactive experiences.**
 
-I’m Precious — a creative technologist exploring the intersection of visual design, software engineering, and game development. I love combining a designer’s eye with a programmer’s mindset to build digital experiences that are functional, expressive, and memorable.
+I'm Precious — a creative technologist bringing together visual design, software engineering, and game development. I build independent prototypes that explore game performance, reliability, competitive fairness, and player experience.
 
-<a href="https://github.com/preciouscrazy">
-  <img src="https://img.shields.io/badge/GitHub-preciouscrazy-181717?style=for-the-badge&logo=github" alt="GitHub profile"/>
-</a>
-<img src="https://img.shields.io/badge/CREATIVITY-UNLOCKED-8B5CF6?style=for-the-badge" alt="Creativity unlocked"/>
-<img src="https://img.shields.io/badge/BUILD-ITERATE-67E8F9?style=for-the-badge&labelColor=171525" alt="Build and iterate"/>
+[![GitHub](https://img.shields.io/badge/GitHub-preciouscrazy-181717?style=for-the-badge&logo=github)](https://github.com/preciouscrazy)
+![C++](https://img.shields.io/badge/C++-Systems-8B5CF6?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Analysis-67E8F9?style=for-the-badge&logo=python&logoColor=181717)
+
+*Design with intention. Code with purpose. Build with curiosity.*
 
 </div>
 
 ---
 
-## ◈ THE VISION
+## ◈ ABOUT ME
 
-I believe great technology should work beautifully and feel intentional.
+I approach software from three perspectives:
 
-My background in graphic design and my growing software engineering skills give me two perspectives on every project:
+- **Engineer:** Build understandable systems, validate inputs, test assumptions, and explain tradeoffs.
+- **Designer:** Make complex information clear, usable, and visually intentional.
+- **Game developer:** Explore the mechanics and systems behind responsive, fair, engaging player experiences.
 
-- **The designer:** How does it look, feel, communicate, and guide the user?
-- **The engineer:** How does it work, handle complexity, and solve the underlying problem?
-- **The game developer:** How can systems, mechanics, and interaction create an engaging experience?
+I'm developing my skills through hands-on projects and independent learning, with a particular interest in software engineering for games and player-facing technology.
 
-My goal is to bring these perspectives together to build thoughtful software and interactive experiences, especially within gaming and player-focused technology.
+## ⌘ TECHNICAL TOOLKIT
 
-## ⌘ MY CREATIVE TOOLKIT
+| Area | Tools and interests |
+|:--|:--|
+| **Programming** | C++, Python, JavaScript |
+| **Systems & analysis** | Performance telemetry, frame timing, simulation, CSV/JSON data pipelines |
+| **Software engineering** | Debugging, unit tests, Git, GitHub Actions, CMake, documentation |
+| **Web & design** | HTML, CSS, interface concepts, typography, visual hierarchy |
+| **Game development** | Gameplay prototyping, player experience, matchmaking concepts |
 
-| Area | Focus |
-|---|---|
-| **Programming** | C++, JavaScript, Python |
-| **Web development** | HTML, CSS, interactive interfaces |
-| **Graphic design** | Visual hierarchy, composition, typography, color |
-| **Game development** | Gameplay concepts, mechanics, prototyping |
-| **Engineering practice** | Git, debugging, problem solving, documentation |
+## 🎮 FEATURED ENGINEERING PROJECTS
 
-*I'm continuing to develop these skills through hands-on projects and independent learning. My portfolio will grow alongside my experience.*
+Three projects that best represent my current work in performance analysis, data processing, and algorithms.
 
-## 🎮 PROJECT UNIVERSE
+### 01 — [RiftPulse](https://github.com/preciouscrazy/riot-riftpulse)
 
-A collection of experiments combining engineering, gaming, design, and player experience.
+**Game telemetry analysis · C++20 · CMake**
 
-### 01 — MINI CLASH
-**Interactive gameplay · Browser game**
+A command-line match-event analyzer that validates CSV data, aggregates per-player statistics, identifies dense event windows for review, and exports structured JSON reports.
 
-An original fighting-game prototype featuring player movement, attacks, blocking, health management, and a CPU opponent.
+**Engineering focus:** structured parsing, data modeling, aggregation, deterministic reporting, error handling, and automated testing.
 
-`JAVASCRIPT` `HTML` `CSS`
+`C++20` `CMAKE` `CSV` `JSON` `TESTING`
 
-### 02 — FRIENDSHIELD
-**Player safety · Social systems**
+### 02 — [FrameTrace](https://github.com/preciouscrazy/FrameTrace)
 
-A player-focused concept exploring how suspicious friend requests and social-safety signals could be presented more clearly.
+**Frame-time diagnostics · Python · Performance analysis**
 
-`PLAYER EXPERIENCE` `SAFETY DESIGN` `SOFTWARE CONCEPTS`
+An offline tool for examining frame-time samples, calculating percentile-based metrics, approximating 1% low FPS, and identifying consecutive stutter events.
 
-### 03 — PATCHPULSE
-**Game updates · Information design**
+**Engineering focus:** statistical summaries, reproducible analysis, threshold-based event detection, and communicating measurement limitations.
 
-A concept for making game patch updates easier to explore, understand, and navigate through thoughtful information design.
+`PYTHON` `FRAME TIMES` `PERFORMANCE` `UNIT TESTS`
 
-`UI/UX` `DATA PRESENTATION` `GAME SYSTEMS`
+### 03 — [MatchFair](https://github.com/preciouscrazy/MatchFair)
 
-### 04 — MATCHFAIR
-**Match integrity · Responsible analytics**
+**Matchmaking simulation · Python · Algorithms**
 
-A concept exploring how match-integrity information could be communicated clearly without overstating what available data can prove.
+A deterministic, region-scoped team-balancing prototype that explores skill-rating differences and queue-wait tradeoffs using synthetic player data.
 
-`ANALYTICS CONCEPTS` `SYSTEM DESIGN` `PLAYER TRUST`
+**Engineering focus:** combinatorial search, deterministic tie-breaking, input validation, complexity constraints, and fairness tradeoffs.
 
-> Project note: These descriptions reflect project directions and a prototype. Implementation, testing, and publication will be documented as each project develops.
+`PYTHON` `ALGORITHMS` `SIMULATION` `DATA ANALYSIS`
+
+## ✧ MORE GAME-SYSTEMS PROJECTS
+
+These smaller prototypes broaden my experience across reliability, regression analysis, and player-centered systems.
+
+| Project | What it explores | Primary skills |
+|:--|:--|:--|
+| **[PatchPulse](https://github.com/preciouscrazy/PatchPulse)** | Compares before/after game-update telemetry and highlights potential performance regressions | Python, cohort comparison, reporting |
+| **[FriendShield](https://github.com/preciouscrazy/FriendShield)** | Generates an explainable, human-review queue for suspicious friend-request signals | Python, rule-based scoring, privacy-aware design |
+| **[RankLens](https://github.com/preciouscrazy/RankLens)** | Models and examines ranked-rating behavior using an educational analytics approach | Python, simulation, analysis |
+| **[RiftGuard](https://github.com/preciouscrazy/RiftGuard)** | Explores reliability monitoring and event-based diagnostic signals | Python, monitoring, event analysis |
+
+> **Project scope:** These are independent educational prototypes. They use local or synthetic data and are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Any warnings, scores, or flags are analytical signals—not proof of misconduct or causation.
+
+## ✦ CREATIVE PLAYGROUND
+
+**Mini Clash — browser fighting-game prototype**  
+An original interactive game concept featuring movement, attacks, blocking, health management, and a CPU opponent. Built around JavaScript, HTML, and CSS. Repository link will be added if published.
 
 ## ✧ HOW I BUILD
 
 ```text
-01  IMAGINE    → Find the opportunity
-02  DESIGN     → Shape the experience
-03  ENGINEER   → Turn ideas into working systems
-04  TEST       → Find bugs and challenge assumptions
-05  REFINE     → Improve, learn, and iterate
+01  OBSERVE    → Identify a player or engineering problem
+02  DESIGN     → Define data, constraints, and a useful interface
+03  ENGINEER   → Implement a focused, testable prototype
+04  VALIDATE   → Run tests, examine edge cases, measure behavior
+05  REFINE     → Document limitations and improve the design
 ```
 
-I enjoy the process of turning an idea into something tangible: sketching a concept, exploring its technical requirements, building a prototype, and refining it until the pieces work together.
+I care about explaining *why* a solution works, where it might fail, and how I would improve it—not just showing that the code runs.
 
-## 🚀 CURRENT MISSION
+## 🚀 CURRENT FOCUS
 
-- Strengthen my software engineering fundamentals.
-- Build original projects that demonstrate real programming ability.
-- Combine graphic design with polished, usable interfaces.
-- Explore gameplay systems and player-centered technology.
-- Develop a portfolio for software engineering opportunities in the gaming industry.
-
-## ✦ THE CREATIVE ENGINEERING PHILOSOPHY
-
-**Design with intention.**
-
-**Code with purpose.**
-
-**Build with curiosity.**
-
-**Keep leveling up.**
+- Deepening my C++ and Python software engineering fundamentals.
+- Improving automated testing, performance measurement, and technical documentation.
+- Learning how game systems balance responsiveness, reliability, fairness, and usability.
+- Building a portfolio of practical, clearly scoped projects for gaming-industry software engineering roles.
 
 ---
 
 <div align="center">
 
-### PRECIOUS · `preciouscrazy`
+### ✦ PRECIOUS · `preciouscrazy` ✦
 
-*Creating at the intersection of art, logic, and play.*
+**Design with intention · Code with purpose · Keep leveling up**
 
-<a href="https://github.com/preciouscrazy">EXPLORE MY GITHUB →</a>
+[Explore my repositories](https://github.com/preciouscrazy?tab=repositories)
 
 </div>
