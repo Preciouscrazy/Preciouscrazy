@@ -1,151 +1,123 @@
 <div align="center">
 
-# ✦ PRECIOUS ✦
+![Cyberpunk profile banner: neon violet skyline with cyan and magenta accents](assets/cyberpunk-header.svg)
 
-### CREATIVE ENGINEER · SOFTWARE DEVELOPMENT · GAME SYSTEMS
+**CREATIVE TECHNOLOGIST · SOFTWARE DEVELOPMENT · GAME SYSTEMS**
 
-**Where creativity meets code, and ideas become interactive experiences.**
-
-
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:preciouscrazy@gmail.com) 
-
-I'm Precious — a creative technologist bringing together visual design, software engineering, and game development. I build independent prototypes that explore game performance, reliability, competitive fairness, and player experience.
-
-# 💻 Tech Stack
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="36" height="36" alt="C++" title="C++" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" title="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="36" height="36" alt="JavaScript" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="36" height="36" alt="HTML5" title="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="36" height="36" alt="CSS3" title="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="36" height="36" alt="Java" title="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="36" height="36" alt="PowerShell" title="PowerShell" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" width="36" height="36" alt="CMake" title="CMake" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" alt="Git" title="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="36" height="36" alt="GitHub" title="GitHub" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="36" height="36" alt="WordPress" title="WordPress" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" width="36" height="36" alt="Photoshop" title="Photoshop" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-original.svg" width="36" height="36" alt="Illustrator" title="Illustrator" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/indesign/indesign-original.svg" width="36" height="36" alt="InDesign" title="InDesign" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dreamweaver/dreamweaver-original.svg" width="36" height="36" alt="Dreamweaver" title="Dreamweaver" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" width="36" height="36" alt="GIMP" title="GIMP" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg" width="36" height="36" alt="SketchUp" title="SketchUp" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="36" height="36" alt="Unreal Engine" title="Unreal Engine" />
-</p>
-
-# 📊 GitHub Stats:
-
-
-
-![GitHub stats](https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show=contributions)<br/>
-![GitHub streak](profile/streak.svg)<br/>
-![Top languages](https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=true&count_private=false&layout=compact)
-
+[![Email](https://img.shields.io/badge/EMAIL-FF4FD8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:preciouscrazy@gmail.com)
+[![Repositories](https://img.shields.io/badge/REPOSITORIES-65F5FF?style=for-the-badge&logo=github&logoColor=11101b)](https://github.com/preciouscrazy?tab=repositories)
 
 </div>
 
+I’m Precious — a graphic design–trained technologist building independent tools and prototypes around game performance, reliability, competitive fairness, and player experience.
+
 ---
 
-## ◈ ABOUT ME
+## ◈ OPERATOR PROFILE
 
-I approach software from three perspectives:
+| **ENGINEERING** | **DESIGN** | **GAME SYSTEMS** |
+|:--|:--|:--|
+| Clear, testable code; input validation; debugging | Visual hierarchy; readable interfaces; intentional presentation | Responsive play; fair systems; player-centered tools |
 
-- **Engineer:** Build understandable systems, validate inputs, test assumptions, and explain tradeoffs.
-- **Designer:** Make complex information clear, usable, and visually intentional.
-- **Game developer:** Explore the mechanics and systems behind responsive, fair, engaging player experiences.
+## ▣ CORE STACK
 
-I'm developing my skills through hands-on projects and independent learning, with a particular interest in software engineering for games and player-facing technology.
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="34" height="34" alt="C++" title="C++" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript" title="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="34" height="34" alt="HTML5" title="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="34" height="34" alt="CSS3" title="CSS3" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="34" height="34" alt="Java" title="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="34" height="34" alt="PowerShell" title="PowerShell" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" width="34" height="34" alt="CMake" title="CMake" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="34" height="34" alt="Git" title="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="34" height="34" alt="GitHub" title="GitHub" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="34" height="34" alt="WordPress" title="WordPress" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" width="34" height="34" alt="Photoshop" title="Photoshop" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-original.svg" width="34" height="34" alt="Illustrator" title="Illustrator" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/indesign/indesign-original.svg" width="34" height="34" alt="InDesign" title="InDesign" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dreamweaver/dreamweaver-original.svg" width="34" height="34" alt="Dreamweaver" title="Dreamweaver" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" width="34" height="34" alt="GIMP" title="GIMP" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg" width="34" height="34" alt="SketchUp" title="SketchUp" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="34" height="34" alt="Unreal Engine" title="Unreal Engine" />
+</p>
 
-## ⌘ TECHNICAL TOOLKIT
+**WORKBENCH** · C++ · Python · JavaScript · CMake · Git · GitHub Actions · telemetry · testing · interface design
 
-| Area | Tools and interests |
-|:--|:--|
-| **Programming** | C++, Python, JavaScript |
-| **Systems & analysis** | Performance telemetry, frame timing, simulation, CSV/JSON data pipelines |
-| **Software engineering** | Debugging, unit tests, Git, GitHub Actions, CMake, documentation |
-| **Web & design** | HTML, CSS, interface concepts, typography, visual hierarchy |
-| **Game development** | Gameplay prototyping, player experience, matchmaking concepts |
+## ▰ SIGNALS // GITHUB STATS
 
-## 🎮 FEATURED ENGINEERING PROJECTS
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show=contributions" alt="GitHub contribution statistics" />
+  <br />
+  <img src="profile/streak.svg" alt="GitHub contribution streak" />
+  <br />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=true&count_private=false&layout=compact" alt="Most-used programming languages" />
+</p>
 
-Three projects that best represent my current work in performance analysis, data processing, and algorithms.
+## ▸ FEATURED SYSTEMS
 
-### 01 — [RiftPulse](https://github.com/preciouscrazy/riot-riftpulse)
+### 01 · [RiftPulse](https://github.com/preciouscrazy/riot-riftpulse)
 
 **Game telemetry analysis · C++20 · CMake**
 
 A command-line match-event analyzer that validates CSV data, aggregates per-player statistics, identifies dense event windows for review, and exports structured JSON reports.
 
-**Engineering focus:** structured parsing, data modeling, aggregation, deterministic reporting, error handling, and automated testing.
+**Focus:** structured parsing, data modeling, aggregation, deterministic reporting, error handling, and automated testing.
 
-`C++20` `CMAKE` `CSV` `JSON` `TESTING`
-
-### 02 — [FrameTrace](https://github.com/preciouscrazy/FrameTrace)
+### 02 · [FrameTrace](https://github.com/preciouscrazy/FrameTrace)
 
 **Frame-time diagnostics · Python · Performance analysis**
 
 An offline tool for examining frame-time samples, calculating percentile-based metrics, approximating 1% low FPS, and identifying consecutive stutter events.
 
-**Engineering focus:** statistical summaries, reproducible analysis, threshold-based event detection, and communicating measurement limitations.
+**Focus:** statistical summaries, reproducible analysis, threshold-based event detection, and communicating measurement limitations.
 
-`PYTHON` `FRAME TIMES` `PERFORMANCE` `UNIT TESTS`
-
-### 03 — [MatchFair](https://github.com/preciouscrazy/MatchFair)
+### 03 · [MatchFair](https://github.com/preciouscrazy/MatchFair)
 
 **Matchmaking simulation · Python · Algorithms**
 
 A deterministic, region-scoped team-balancing prototype that explores skill-rating differences and queue-wait tradeoffs using synthetic player data.
 
-**Engineering focus:** combinatorial search, deterministic tie-breaking, input validation, complexity constraints, and fairness tradeoffs.
+**Focus:** combinatorial search, deterministic tie-breaking, input validation, complexity constraints, and fairness tradeoffs.
 
-`PYTHON` `ALGORITHMS` `SIMULATION` `DATA ANALYSIS`
+## ▸ GAME-SYSTEMS LAB
 
-## ✧ MORE GAME-SYSTEMS PROJECTS
-
-These smaller prototypes broaden my experience across reliability, regression analysis, and player-centered systems.
-
-| Project | What it explores | Primary skills |
+| **PROJECT** | **EXPERIMENT** | **TOOLS** |
 |:--|:--|:--|
-| **[PatchPulse](https://github.com/preciouscrazy/PatchPulse)** | Compares before/after game-update telemetry and highlights potential performance regressions | Python, cohort comparison, reporting |
-| **[FriendShield](https://github.com/preciouscrazy/FriendShield)** | Generates an explainable, human-review queue for suspicious friend-request signals | Python, rule-based scoring, privacy-aware design |
-| **[RankLens](https://github.com/preciouscrazy/RankLens)** | Models and examines ranked-rating behavior using an educational analytics approach | Python, simulation, analysis |
-| **[RiftGuard](https://github.com/preciouscrazy/RiftGuard)** | Explores reliability monitoring and event-based diagnostic signals | Python, monitoring, event analysis |
+| [PatchPulse](https://github.com/preciouscrazy/PatchPulse) | Compares before/after game-update telemetry and highlights potential performance regressions | Python · cohort comparison · reporting |
+| [FriendShield](https://github.com/preciouscrazy/FriendShield) | Creates an explainable human-review queue from suspicious friend-request signals | Python · rule-based scoring · privacy-aware design |
+| [RankLens](https://github.com/preciouscrazy/RankLens) | Models hypothetical ranked-rating behavior for educational analysis | Python · simulation · analysis |
+| [RiftGuard](https://github.com/preciouscrazy/RiftGuard) | Explores reliability monitoring and event-based diagnostic signals | Python · monitoring · event analysis |
 
-> **Project scope:** These are independent educational prototypes. They use local or synthetic data and are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Any warnings, scores, or flags are analytical signals—not proof of misconduct or causation.
+> **Scope note:** These are independent educational prototypes using local or synthetic data. They are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Scores and flags are analytical signals, not proof of misconduct or causation.
 
 ## ✦ CREATIVE PLAYGROUND
 
 **Mini Clash — browser fighting-game prototype**  
 An original interactive game concept featuring movement, attacks, blocking, health management, and a CPU opponent. Built with JavaScript, HTML, and CSS. The repository is being prepared for publication.
 
-## ✧ HOW I BUILD
+## ⌘ BUILD PROTOCOL
 
 ```text
-01  OBSERVE    → Identify a player or engineering problem
-02  DESIGN     → Define data, constraints, and a useful interface
-03  ENGINEER   → Implement a focused, testable prototype
-04  VALIDATE   → Run tests, examine edge cases, measure behavior
-05  REFINE     → Document limitations and improve the design
+01  SCAN       Identify a player or engineering problem
+02  DESIGN     Define data, constraints, and a useful interface
+03  BUILD      Implement a focused, testable prototype
+04  VALIDATE   Run tests, examine edge cases, measure behavior
+05  REFINE     Document limitations and improve the design
 ```
 
-I care about explaining *why* a solution works, where it might fail, and how I would improve it—not just showing that the code runs.
-
-## 🚀 CURRENT FOCUS
+## ◉ CURRENT FOCUS
 
 - Deepening my C++ and Python software engineering fundamentals.
 - Improving automated testing, performance measurement, and technical documentation.
 - Learning how game systems balance responsiveness, reliability, fairness, and usability.
-- Building a portfolio of practical, clearly scoped projects for gaming-industry software engineering roles.
+- Building practical, clearly scoped projects for gaming-industry software engineering roles.
 
 ---
 
 <div align="center">
 
-### ✦ PRECIOUS · `preciouscrazy` ✦
-
-**Design with intention · Code with purpose · Keep leveling up**
+**PRECIOUS // PLAYER-FIRST ENGINEERING · VISUAL DESIGN · GAME SYSTEMS**
 
 [Explore my repositories](https://github.com/preciouscrazy?tab=repositories)
 
