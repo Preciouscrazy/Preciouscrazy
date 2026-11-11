@@ -18,7 +18,7 @@ jobs:
       - name: Generate streak SVG
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true&disable_animations=true
+          options: user=${{ github.repository_owner }}&theme=dark&background=080714&border=B167FF&stroke=4A3565&ring=57EFFF&fire=FF4CD3&currStreakNum=F6F0FF&sideNums=F6F0FF&currStreakLabel=57EFFF&sideLabels=E6DDF5&dates=BBA9D4&hide_border=false&disable_animations=true
           path: profile/streak.svg
       - name: Commit updated card
         run: |

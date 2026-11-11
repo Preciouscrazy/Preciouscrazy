@@ -4,8 +4,8 @@
 
 **CREATIVE TECHNOLOGIST · SOFTWARE DEVELOPMENT · GAME SYSTEMS**
 
-[![Email](https://img.shields.io/badge/EMAIL-FF4FD8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:preciouscrazy@gmail.com)
-[![Repositories](https://img.shields.io/badge/REPOSITORIES-65F5FF?style=for-the-badge&logo=github&logoColor=11101b)](https://github.com/preciouscrazy?tab=repositories)
+[![Email](https://img.shields.io/badge/EMAIL-FF4CD3?style=for-the-badge&logo=gmail&logoColor=080714)](mailto:preciouscrazy@gmail.com)
+[![Repositories](https://img.shields.io/badge/REPOSITORIES-57EFFF?style=for-the-badge&logo=github&logoColor=080714)](https://github.com/preciouscrazy?tab=repositories)
 
 </div>
 
@@ -13,13 +13,13 @@ I’m Precious — a graphic design–trained technologist building independent 
 
 ---
 
-## ◈ OPERATOR PROFILE
+## ![Neon section marker](assets/neon-marker.svg) OPERATOR PROFILE
 
 | **ENGINEERING** | **DESIGN** | **GAME SYSTEMS** |
 |:--|:--|:--|
 | Clear, testable code; input validation; debugging | Visual hierarchy; readable interfaces; intentional presentation | Responsive play; fair systems; player-centered tools |
 
-## ▣ CORE STACK
+## ![Neon section marker](assets/neon-marker.svg) CORE STACK
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="34" height="34" alt="C++" title="C++" />
@@ -44,17 +44,17 @@ I’m Precious — a graphic design–trained technologist building independent 
 
 **WORKBENCH** · C++ · Python · JavaScript · CMake · Git · GitHub Actions · telemetry · testing · interface design
 
-## ▰ SIGNALS // GITHUB STATS
+## ![Neon section marker](assets/neon-marker.svg) SIGNALS // GITHUB STATS
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show=contributions" alt="GitHub contribution statistics" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=false&include_all_commits=true&count_private=false&show=contributions&bg_color=080714&title_color=57EFFF&text_color=E6DDF5&icon_color=FF4CD3&border_color=B167FF" alt="GitHub contribution statistics" />
   <br />
   <img src="profile/streak.svg" alt="GitHub contribution streak" />
   <br />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=true&count_private=false&layout=compact" alt="Most-used programming languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=false&count_private=false&layout=compact&bg_color=080714&title_color=57EFFF&text_color=E6DDF5&icon_color=FF4CD3&border_color=B167FF" alt="Most-used programming languages" />
 </p>
 
-## ▸ FEATURED SYSTEMS
+## ![Neon section marker](assets/neon-marker.svg) FEATURED SYSTEMS
 
 ### 01 · [RiftPulse](https://github.com/preciouscrazy/riot-riftpulse)
 
@@ -80,7 +80,7 @@ A deterministic, region-scoped team-balancing prototype that explores skill-rati
 
 **Focus:** combinatorial search, deterministic tie-breaking, input validation, complexity constraints, and fairness tradeoffs.
 
-## ▸ GAME-SYSTEMS LAB
+## ![Neon section marker](assets/neon-marker.svg) GAME-SYSTEMS LAB
 
 | **PROJECT** | **EXPERIMENT** | **TOOLS** |
 |:--|:--|:--|
@@ -91,12 +91,12 @@ A deterministic, region-scoped team-balancing prototype that explores skill-rati
 
 > **Scope note:** These are independent educational prototypes using local or synthetic data. They are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Scores and flags are analytical signals, not proof of misconduct or causation.
 
-## ✦ CREATIVE PLAYGROUND
+## ![Neon section marker](assets/neon-marker.svg) CREATIVE PLAYGROUND
 
 **Mini Clash — browser fighting-game prototype**  
 An original interactive game concept featuring movement, attacks, blocking, health management, and a CPU opponent. Built with JavaScript, HTML, and CSS. The repository is being prepared for publication.
 
-## ⌘ BUILD PROTOCOL
+## ![Neon section marker](assets/neon-marker.svg) BUILD PROTOCOL
 
 ```text
 01  SCAN       Identify a player or engineering problem
@@ -106,7 +106,7 @@ An original interactive game concept featuring movement, attacks, blocking, heal
 05  REFINE     Document limitations and improve the design
 ```
 
-## ◉ CURRENT FOCUS
+## ![Neon section marker](assets/neon-marker.svg) CURRENT FOCUS
 
 - Deepening my C++ and Python software engineering fundamentals.
 - Improving automated testing, performance measurement, and technical documentation.
