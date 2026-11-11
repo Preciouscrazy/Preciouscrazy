@@ -6,6 +6,14 @@
 
 **Where creativity meets code, and ideas become interactive experiences.**
 
+<p align="center">
+  <a href="https://github.com/Preciouscrazy?tab=overview">
+    <img src="profile/space-shooter-heatmap.svg" width="100%" alt="Decorative space-shooter heatmap banner. Open my profile to see actual contributions." />
+  </a>
+</p>
+
+
+
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:preciouscrazy@gmail.com) 
 
