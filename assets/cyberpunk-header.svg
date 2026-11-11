@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Precious cyberpunk profile banner</title>
+  <desc id="desc">A dark violet futuristic skyline with cyan and magenta neon accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090714"/>
+      <stop offset=".55" stop-color="#15102a"/>
+      <stop offset="1" stop-color="#080b19"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b36bff"/>
+      <stop offset=".52" stop-color="#65f5ff"/>
+      <stop offset="1" stop-color="#ff4fd8"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#8a42d8" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#8a42d8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9c76cf" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <ellipse cx="940" cy="95" rx="315" ry="190" fill="url(#glow)"/>
+  <path d="M0 230H1200" stroke="url(#neon)" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M0 232L1200 232M90 232L370 300M1110 232L830 300M220 232L460 300M980 232L740 300" stroke="#65f5ff" stroke-opacity=".22"/>
+  <g fill="#0b0a18" stroke="#7350a8" stroke-opacity=".72" stroke-width="2">
+    <path d="M0 232V150h70v82zM75 232V110h42v122zM123 232V166h68v66zM202 232V83h58v149zM266 232V132h88v100z"/>
+    <path d="M818 232V137h70v95zM895 232V91h45v141zM947 232V157h68v75zM1022 232V112h88v120zM1117 232V72h55v160zM1178 232V142h22v90z"/>
+  </g>
+  <g fill="#65f5ff" opacity=".72">
+    <path d="M88 126h7v7h-7zM103 126h7v7h-7zM217 101h7v7h-7zM239 101h7v7h-7zM282 151h7v7h-7zM304 151h7v7h-7zM916 111h7v7h-7zM1050 132h7v7h-7zM1072 132h7v7h-7zM1134 93h7v7h-7z"/>
+  </g>
+  <g fill="#ff4fd8" opacity=".82">
+    <path d="M148 184h7v7h-7zM228 120h7v7h-7zM852 160h7v7h-7zM973 178h7v7h-7zM1146 117h7v7h-7z"/>
+  </g>
+  <path d="M64 48h1072" stroke="url(#neon)" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M64 252h1072" stroke="url(#neon)" stroke-opacity=".65" stroke-width="2"/>
+  <circle cx="1066" cy="82" r="46" fill="none" stroke="#ff4fd8" stroke-opacity=".35"/>
+  <circle cx="1066" cy="82" r="34" fill="none" stroke="#65f5ff" stroke-opacity=".6"/>
+  <circle cx="1066" cy="82" r="7" fill="#65f5ff"/>
+  <g font-family="monospace">
+    <text x="84" y="143" font-size="16" letter-spacing="5" fill="#65f5ff">PLAYER-FOCUSED ENGINEERING  /  DIGITAL WORLDS</text>
+    <text x="78" y="205" font-size="62" font-weight="700" letter-spacing="5" fill="#f5eaff">PRECIOUS</text>
+    <text x="82" y="232" font-size="15" letter-spacing="3" fill="#d6c3f3">SOFTWARE  ·  VISUAL DESIGN  ·  GAME SYSTEMS</text>
+    <text x="1118" y="272" font-size="11" text-anchor="end" letter-spacing="2" fill="#a792c7">PORTFOLIO NODE // 01</text>
+  </g>
+  <path d="M61 48v204M1139 48v204" stroke="url(#neon)" stroke-width="2" opacity=".65"/>
+  <circle cx="64" cy="48" r="4" fill="#65f5ff"/>
+  <circle cx="1136" cy="252" r="4" fill="#ff4fd8"/>
+</svg>
