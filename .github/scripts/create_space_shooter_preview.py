@@ -170,7 +170,7 @@ def render_frame(frame, grid, total, updated):
     draw.text((35, 207), "PUBLIC CONTRIBUTIONS · REFRESHED HOURLY", font=SMALL, fill=(157, 145, 183, 255))
     draw.text((865, 207), updated, font=SMALL, fill=(157, 145, 183, 255), anchor="ra")
     draw.rounded_rectangle((8, 8, WIDTH - 9, HEIGHT - 9), radius=18, outline=(89, 67, 124, 235), width=1)
-    return image.convert("P", palette=Image.Palette.ADAPTIVE, colors=128)
+    return image.convert("RGB")
 
 
 def main():
@@ -184,7 +184,14 @@ def main():
     calendar, updated_at = fetch_calendar(args.login, token)
     grid = calendar_grid(calendar)
     updated = updated_at.strftime("%b %d · %H:%M UTC")
-    frames = [render_frame(i, grid, calendar["totalContributions"], updated) for i in range(FRAME_COUNT)]
+    rendered = [render_frame(i, grid, calendar["totalContributions"], updated) for i in range(FRAME_COUNT)]
+    # GIF frames must share a palette; independent palettes scramble colors between frames.
+    palette = rendered[0].quantize(colors=128, method=Image.Quantize.MEDIANCUT)
+    frames = [palette]
+    frames.extend(
+        frame.quantize(palette=palette, dither=Image.Dither.NONE)
+        for frame in rendered[1:]
+    )
     os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
     frames[0].save(
         args.output,
