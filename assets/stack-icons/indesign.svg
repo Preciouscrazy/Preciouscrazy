@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Adobe InDesign style icon</title>
+  <title id="title">Adobe InDesign icon</title>
   <defs>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#57EFFF"/>
-      <stop offset="0.52" stop-color="#FF4CD3"/>
-      <stop offset="1" stop-color="#B167FF"/>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#532363"/>
+      <stop offset="1" stop-color="#24112F"/>
+    </linearGradient>
+    <linearGradient id="letters" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8FE0"/>
+      <stop offset="1" stop-color="#F04BC2"/>
     </linearGradient>
   </defs>
-  <rect x="3" y="3" width="58" height="58" rx="11" fill="#080714" stroke="url(#neon)" stroke-width="3"/>
-  <path d="M12 13h40v3H12z" fill="#57EFFF" opacity=".9"/>
-  <text x="32" y="46" text-anchor="middle" fill="#FF4CD3" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="-2">Id</text>
+  <rect x="2" y="2" width="60" height="60" rx="9" fill="url(#tile)"/>
+  <text x="32" y="44" text-anchor="middle" fill="url(#letters)" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" letter-spacing="-2">Id</text>
 </svg>
