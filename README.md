@@ -54,31 +54,31 @@ I’m Precious — a graphic design–trained technologist building independent 
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=false&count_private=false&layout=compact&bg_color=080714&title_color=57EFFF&text_color=E6DDF5&icon_color=FF4CD3&border_color=B167FF" alt="Most-used programming languages" />
 </p>
 
-## ![Neon section marker](assets/neon-marker.svg) FEATURED SYSTEMS
+## ![Neon section marker](assets/neon-marker.svg) FEATURED SYSTEMS // SELECTED BUILDS
 
-### 01 · [RiftPulse](https://github.com/preciouscrazy/riot-riftpulse)
+### [![01 / RIFTPULSE · C++20 / CMAKE](https://img.shields.io/badge/01%20%2F%20RIFTPULSE-C%2B%2B20%20%2F%20CMAKE-57EFFF?style=for-the-badge&labelColor=080714)](https://github.com/preciouscrazy/riot-riftpulse)
 
-**Game telemetry analysis · C++20 · CMake**
+**SYSTEM READOUT** · Game telemetry analysis
 
 A command-line match-event analyzer that validates CSV data, aggregates per-player statistics, identifies dense event windows for review, and exports structured JSON reports.
 
-**Focus:** structured parsing, data modeling, aggregation, deterministic reporting, error handling, and automated testing.
+**FOCUS** · Structured parsing · data modeling · deterministic reporting · error handling · automated testing
 
-### 02 · [FrameTrace](https://github.com/preciouscrazy/FrameTrace)
+### [![02 / FRAMETRACE · PYTHON / PERFORMANCE](https://img.shields.io/badge/02%20%2F%20FRAMETRACE-PYTHON%20%2F%20PERFORMANCE-FF4CD3?style=for-the-badge&labelColor=080714)](https://github.com/preciouscrazy/FrameTrace)
 
-**Frame-time diagnostics · Python · Performance analysis**
+**SYSTEM READOUT** · Frame-time diagnostics
 
 An offline tool for examining frame-time samples, calculating percentile-based metrics, approximating 1% low FPS, and identifying consecutive stutter events.
 
-**Focus:** statistical summaries, reproducible analysis, threshold-based event detection, and communicating measurement limitations.
+**FOCUS** · Statistical summaries · reproducible analysis · threshold-based event detection · communicating measurement limitations
 
-### 03 · [MatchFair](https://github.com/preciouscrazy/MatchFair)
+### [![03 / MATCHFAIR · PYTHON / MATCHMAKING](https://img.shields.io/badge/03%20%2F%20MATCHFAIR-PYTHON%20%2F%20MATCHMAKING-B167FF?style=for-the-badge&labelColor=080714)](https://github.com/preciouscrazy/MatchFair)
 
-**Matchmaking simulation · Python · Algorithms**
+**SYSTEM READOUT** · Matchmaking simulation
 
 A deterministic, region-scoped team-balancing prototype that explores skill-rating differences and queue-wait tradeoffs using synthetic player data.
 
-**Focus:** combinatorial search, deterministic tie-breaking, input validation, complexity constraints, and fairness tradeoffs.
+**FOCUS** · Combinatorial search · deterministic tie-breaking · input validation · complexity constraints · fairness tradeoffs
 
 ## ![Neon section marker](assets/neon-marker.svg) GAME-SYSTEMS LAB
 
