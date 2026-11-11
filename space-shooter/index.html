@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100d20">
+<title>Space Shooter Heatmap | Precious</title>
+<style>
+:root{color-scheme:dark;--bg:#100d20;--panel:#19142f;--line:#554078;--cyan:#62eaf2;--violet:#b980ff;--text:#f5f0ff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -15%,#38265a 0%,var(--bg) 58%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+main{width:min(1040px,94vw);margin:0 auto;padding:30px 0 42px}
+header{display:flex;justify-content:space-between;align-items:end;gap:18px;flex-wrap:wrap;margin-bottom:18px}
+h1{font-size:clamp(1.45rem,4vw,2.4rem);letter-spacing:.08em;margin:0;background:linear-gradient(100deg,#dfc1ff,#71f1f4,#dcb9ff);color:transparent;background-clip:text}
+p{color:#c8bddc;margin:.4rem 0}
+.scoreboard{display:flex;gap:10px}
+.stat{min-width:108px;padding:9px 13px;border:1px solid #4b3969;border-radius:12px;background:#171329c9}
+.stat span{display:block;color:#9c8cb6;font:10px ui-monospace,monospace;letter-spacing:.12em}.stat b{font-size:1.1rem;color:var(--cyan)}
+.shell{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:#100d20;box-shadow:0 18px 60px #080611a8}
+canvas{display:block;width:100%;height:auto;aspect-ratio:1000/540;touch-action:none;cursor:none}
+.hud{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border-top:1px solid #3a2b53;background:#171329}
+button{border:1px solid #7f5cb1;border-radius:10px;background:#322147;color:#fff;padding:9px 14px;font-weight:700;cursor:pointer}
+button:hover,button:focus-visible{outline:2px solid var(--cyan);outline-offset:2px;background:#493067}
+kbd{background:#292039;border:1px solid #594574;border-radius:5px;padding:2px 6px;color:#e7d6ff;font:inherit}
+.instructions{margin:13px 3px 0;font-size:.92rem;line-height:1.6;color:#c4b8d8}
+a{color:#79edf4}
+@media(max-width:560px){main{padding-top:20px}.stat{min-width:88px}.hud{align-items:flex-start;flex-direction:column}canvas{cursor:default}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div><h1>SPACE SHOOTER // HEATMAP</h1><p>Move your pointer to pilot the ship. Click or press Space to fire.</p></div>
+<div class="scoreboard" aria-live="polite"><div class="stat"><span>SCORE</span><b id="score">0000</b></div><div class="stat"><span>SECTOR</span><b id="sector">01</b></div></div>
+</header>
+<section class="shell" aria-label="Interactive space shooter">
+<canvas id="game" width="1000" height="540" aria-label="Space game. Move the mouse to move the ship, click to fire."></canvas>
+<div class="hud"><span id="status">READY · MOVE TO PILOT</span><button id="start" type="button">Start / Restart</button></div>
+</section>
+<p class="instructions"><strong>Controls</strong> Move the mouse or touch to steer. Click or press <kbd>Space</kbd> to shoot. Destroy the glowing targets before they cross the field. <a href="https://github.com/Preciouscrazy">Back to Precious’s GitHub profile</a>.</p>
+</main>
+<script>
+(() => {
+  const canvas = document.querySelector("#game");
+  const ctx = canvas.getContext("2d");
+  const scoreLabel = document.querySelector("#score");
+  const sectorLabel = document.querySelector("#sector");
+  const status = document.querySelector("#status");
+  const startButton = document.querySelector("#start");
+  const width = canvas.width;
+  const height = canvas.height;
+  const pointer = { x: width * .5, y: height * .78 };
+  const ship = { x: pointer.x, y: pointer.y, angle: 0 };
+  const stars = Array.from({length:100}, (_,i) => ({
+    x:(i*197+31)%width,y:(i*109+71)%height,r:i%9===0?1.8:.8,s:.25+(i%5)*.13
+  }));
+  let bullets=[], targets=[], sparks=[], score=0, frame=0, active=false, lastShot=0, spawnTimer=0;
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function resizePointer(event){
+    const rect=canvas.getBoundingClientRect();
+    pointer.x=Math.max(24,Math.min(width-24,(event.clientX-rect.left)*width/rect.width));
+    pointer.y=Math.max(height*.32,Math.min(height-34,(event.clientY-rect.top)*height/rect.height));
+  }
+  canvas.addEventListener("pointermove",resizePointer);
+  canvas.addEventListener("pointerdown",event=>{resizePointer(event);shoot();canvas.setPointerCapture?.(event.pointerId)});
+  window.addEventListener("keydown",event=>{if(event.code==="Space"){event.preventDefault();shoot()}});
+  startButton.addEventListener("click",start);
+
+  function start(){
+    score=0;frame=0;bullets=[];targets=[];sparks=[];spawnTimer=0;active=true;
+    pointer.x=width*.5;pointer.y=height*.78;ship.x=pointer.x;ship.y=pointer.y;
+    status.textContent="SECTOR 01 · DEFEND THE FIELD";updateScore();requestAnimationFrame(loop);
+  }
+  function shoot(){
+    if(!active || performance.now()-lastShot<190)return;
+    lastShot=performance.now();
+    bullets.push({x:ship.x,y:ship.y-18,vy:-8.5});
+    for(let i=0;i<3;i++)sparks.push({x:ship.x+(Math.random()-.5)*7,y:ship.y-19,vx:(Math.random()-.5)*1.4,vy:-Math.random()*2-1,life:18,color:"#6cf2f4"});
+  }
+  function spawn(){
+    const x=36+Math.random()*(width-72);
+    targets.push({x,y:-16,r:7+Math.random()*5,vy:1.1+Math.min(score/5000,1.4),phase:Math.random()*6.28});
+  }
+  function updateScore(){scoreLabel.textContent=String(score).padStart(4,"0");sectorLabel.textContent=String(1+Math.floor(score/500)).padStart(2,"0")}
+  function background(){
+    ctx.fillStyle="#100d20";ctx.fillRect(0,0,width,height);
+    const glow=ctx.createRadialGradient(width*.5,height*.45,20,width*.5,height*.45,600);glow.addColorStop(0,"#211638");glow.addColorStop(1,"#100d20");ctx.fillStyle=glow;ctx.fillRect(0,0,width,height);
+    for(const star of stars){star.y+=star.s;if(star.y>height){star.y=0;star.x=(star.x+113)%width}ctx.globalAlpha=.35+(star.x%7)/12;ctx.fillStyle=star.x%3?"#bda5ec":"#73eef5";ctx.fillRect(star.x,star.y,star.r,star.r)}
+    ctx.globalAlpha=1;
+    const cell=13,gap=5,cols=30,rows=9,x0=(width-cols*(cell+gap))/2,y0=height-rows*(cell+gap)-14;
+    for(let y=0;y<rows;y++)for(let x=0;x<cols;x++){
+      const pulse=(Math.sin((x*13+y*7+frame*.025)/8)+1)/2;
+      const lit=((x*5+y*11)%19)<Math.floor(pulse*5);
+      ctx.fillStyle=lit?(pulse>.75?"#3ddce7":"#6848a0"):"#241d3a";
+      ctx.globalAlpha=lit?.85:.62;ctx.fillRect(x0+x*(cell+gap),y0+y*(cell+gap),cell,cell);
+    }
+    ctx.globalAlpha=1;
+    ctx.fillStyle="#8b74ad";ctx.font="10px ui-monospace,monospace";ctx.fillText("ACTIVITY FIELD · SECTOR "+String(1+Math.floor(score/500)).padStart(2,"0"),18,24);
+  }
+  function drawShip(){
+    ship.x+=(pointer.x-ship.x)*.16;ship.y+=(pointer.y-ship.y)*.16;
+    ship.angle=Math.max(-.22,Math.min(.22,(pointer.x-ship.x)*.012));
+    ctx.save();ctx.translate(ship.x,ship.y);ctx.rotate(ship.angle);
+    const flame=reduceMotion?10:8+Math.sin(frame*.38)*4;
+    ctx.shadowBlur=18;ctx.shadowColor="#5ceaf4";
+    ctx.fillStyle="#64eff5";ctx.beginPath();ctx.moveTo(0,flame+22);ctx.lineTo(-5,13);ctx.lineTo(5,13);ctx.closePath();ctx.fill();
+    ctx.shadowBlur=12;ctx.fillStyle="#d9c2ff";ctx.beginPath();ctx.moveTo(0,-21);ctx.lineTo(11,12);ctx.lineTo(0,8);ctx.lineTo(-11,12);ctx.closePath();ctx.fill();
+    ctx.fillStyle="#8a60cb";ctx.beginPath();ctx.moveTo(0,-14);ctx.lineTo(4,5);ctx.lineTo(0,2);ctx.lineTo(-4,5);ctx.closePath();ctx.fill();
+    ctx.fillStyle="#75fbff";ctx.fillRect(-2,-7,4,7);ctx.restore();
+  }
+  function drawTarget(target){
+    ctx.save();ctx.translate(target.x,target.y);ctx.rotate(target.phase);ctx.shadowBlur=14;ctx.shadowColor="#ba78ff";ctx.fillStyle="#d39aff";
+    ctx.beginPath();for(let i=0;i<8;i++){const a=i*Math.PI/4,r=i%2?target.r*.55:target.r;ctx.lineTo(Math.cos(a)*r,Math.sin(a)*r)}ctx.closePath();ctx.fill();
+    ctx.fillStyle="#f5ddff";ctx.fillRect(-2,-2,4,4);ctx.restore();
+  }
+  function loop(){
+    if(!active)return;frame++;background();spawnTimer++;
+    if(spawnTimer>Math.max(24,72-Math.floor(score/250))){spawn();spawnTimer=0}
+    for(const b of bullets){b.y+=b.vy;ctx.shadowBlur=12;ctx.shadowColor="#60f3f7";ctx.fillStyle="#b8ffff";ctx.fillRect(b.x-2,b.y-9,4,12)}
+    ctx.shadowBlur=0;bullets=bullets.filter(b=>b.y>-10);
+    for(const t of targets){t.y+=t.vy;t.x+=Math.sin(frame*.035+t.phase)*.5;drawTarget(t)}
+    for(let ti=targets.length-1;ti>=0;ti--){const t=targets[ti];if(t.y>height-82){targets.splice(ti,1);continue}
+      const bi=bullets.findIndex(b=>Math.hypot(b.x-t.x,b.y-t.y)<t.r+5);
+      if(bi>=0){bullets.splice(bi,1);targets.splice(ti,1);score+=25;updateScore();for(let j=0;j<12;j++)sparks.push({x:t.x,y:t.y,vx:(Math.random()-.5)*5,vy:(Math.random()-.5)*5,life:30,color:j%2?"#70f0f5":"#bc83ff"})}
+    }
+    for(const p of sparks){p.x+=p.vx;p.y+=p.vy;p.life--;ctx.globalAlpha=Math.max(0,p.life/30);ctx.fillStyle=p.color;ctx.fillRect(p.x,p.y,3,3)}sparks=sparks.filter(p=>p.life>0);ctx.globalAlpha=1;
+    drawShip();requestAnimationFrame(loop);
+  }
+  background();drawShip();
+})();
+</script>
+</body>
+</html>
