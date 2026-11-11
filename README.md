@@ -37,11 +37,7 @@ I'm Precious — a creative technologist bringing together visual design, softwa
 
 # 📊 GitHub Stats:
 
-<p align="center">
-  <img src="https://preciouscrazy.github.io/Preciouscrazy/space-shooter-heatmap.gif?v=live-calendar-2" width="100%" alt="Animated Space Shooter Heatmap showing Preciouscrazy's public GitHub contribution levels over the past 12 months." />
-</p>
 
-<p align="center"><sub>Public contribution data · refreshed hourly · GitHub may take up to 24 hours to register activity</sub></p>
 
 ![GitHub stats](https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show=contributions)<br/>
 ![GitHub streak](profile/streak.svg)<br/>
