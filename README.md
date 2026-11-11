@@ -12,7 +12,7 @@
   </a>
 </p>
 
-
+<p align="center"><a href="https://preciouscrazy.github.io/Preciouscrazy/">▶ PLAY THE INTERACTIVE SPACE SHOOTER</a></p>
 
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:preciouscrazy@gmail.com) 
