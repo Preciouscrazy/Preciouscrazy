@@ -35,7 +35,7 @@ I’m Precious — a graphic design–trained technologist building independent 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="34" height="34" alt="WordPress" title="WordPress" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" width="34" height="34" alt="Photoshop" title="Photoshop" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-original.svg" width="34" height="34" alt="Illustrator" title="Illustrator" />
-  <img src="https://cdn.simpleicons.org/adobeindesign/FF4CD3" width="34" height="34" alt="Adobe InDesign" title="Adobe InDesign" />
+  <img src="assets/stack-icons/indesign.svg" width="34" height="34" alt="Adobe InDesign" title="Adobe InDesign" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dreamweaver/dreamweaver-original.svg" width="34" height="34" alt="Dreamweaver" title="Dreamweaver" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" width="34" height="34" alt="GIMP" title="GIMP" />
   <img src="https://cdn.simpleicons.org/sketchup/57EFFF" width="34" height="34" alt="SketchUp" title="SketchUp" />
