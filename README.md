@@ -6,9 +6,6 @@
 
 **Where creativity meets code, and ideas become interactive experiences.**
 
-<p align="center">
-  <img src="https://preciouscrazy.github.io/Preciouscrazy/space-shooter-heatmap.gif" width="100%" alt="Animated Space Shooter Heatmap: a compact ship glides across a glowing activity grid as targets drift through a starfield." />
-</p>
 
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:preciouscrazy@gmail.com) 
@@ -39,6 +36,13 @@ I'm Precious — a creative technologist bringing together visual design, softwa
 </p>
 
 # 📊 GitHub Stats:
+
+<p align="center">
+  <img src="https://preciouscrazy.github.io/Preciouscrazy/space-shooter-heatmap.gif" width="100%" alt="Animated Space Shooter Heatmap showing Preciouscrazy's public GitHub contribution levels over the past 12 months." />
+</p>
+
+<p align="center"><sub>Public contribution data · refreshed hourly · GitHub may take up to 24 hours to register activity</sub></p>
+
 ![GitHub stats](https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=true&include_all_commits=true&count_private=false&show=contributions)<br/>
 ![GitHub streak](profile/streak.svg)<br/>
 ![Top languages](https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=true&count_private=false&layout=compact)
