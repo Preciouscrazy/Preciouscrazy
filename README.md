@@ -1,6 +1,6 @@
 <div align="center">
 
-![Animated 3D-style cyberpunk banner with an extruded Precious title, neon skyline, perspective grid, and rotating wireframe cube](assets/cyberpunk-header.gif?v=cyberpunk-3d-v1)
+![Animated 3D-style cyberpunk banner with an extruded Precious title, neon skyline, perspective grid, and rotating wireframe cube](assets/cyberpunk-header.gif?v=cyberpunk-smooth-v2)
 
 **CREATIVE TECHNOLOGIST · SOFTWARE DEVELOPMENT · GAME SYSTEMS**
 
