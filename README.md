@@ -1,6 +1,6 @@
 <div align="center">
 
-![Cyberpunk profile banner: neon violet skyline with cyan and magenta accents](assets/cyberpunk-header.svg)
+![Animated 3D-style cyberpunk banner with an extruded Precious title, neon skyline, perspective grid, and rotating wireframe cube](assets/cyberpunk-header.gif?v=cyberpunk-3d-v1)
 
 **CREATIVE TECHNOLOGIST · SOFTWARE DEVELOPMENT · GAME SYSTEMS**
 
