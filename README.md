@@ -7,8 +7,7 @@
 **Where creativity meets code, and ideas become interactive experiences.**
 
 <p align="center">
-  <a href="https://preciouscrazy.github.io/Preciouscrazy/"><strong>▶ PLAY THE INTERACTIVE SPACE SHOOTER</strong></a><br>
-  <sub>Mouse or touch to steer · Click or press Space to fire</sub>
+  <img src="https://preciouscrazy.github.io/Preciouscrazy/space-shooter-heatmap.gif" width="100%" alt="Animated Space Shooter Heatmap: a compact ship glides across a glowing activity grid as targets drift through a starfield." />
 </p>
 
 ## 🌐 Socials:
@@ -117,9 +116,6 @@ These smaller prototypes broaden my experience across reliability, regression an
 > **Project scope:** These are independent educational prototypes. They use local or synthetic data and are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Any warnings, scores, or flags are analytical signals—not proof of misconduct or causation.
 
 ## ✦ CREATIVE PLAYGROUND
-
-**[Space Shooter Heatmap — interactive browser game](https://preciouscrazy.github.io/Preciouscrazy/)**  
-A compact arcade prototype with pointer and touch steering, click or Space firing, an animated activity field, score, and sector progression. [Play the game](https://preciouscrazy.github.io/Preciouscrazy/) · [View the source](https://github.com/Preciouscrazy/Preciouscrazy/tree/main/space-shooter).
 
 **Mini Clash — browser fighting-game prototype**  
 An original interactive game concept featuring movement, attacks, blocking, health management, and a CPU opponent. Built with JavaScript, HTML, and CSS. The repository is being prepared for publication.
