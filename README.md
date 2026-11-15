@@ -9,29 +9,73 @@
 
 </div>
 
-I’m Precious — a graphic design–trained technologist building independent tools and prototypes around game performance, reliability, competitive fairness, and player experience.
 
----
+I’m Precious — a creative technologist attending **Lamar University (expected graduation: 2028)** with a background in graphic design. I build and test **C++ and Python game-systems prototypes** focused on performance diagnostics, reliability, deterministic behavior, and player experience.
 
-## ![Neon section marker](assets/neon-marker.svg) OPERATOR PROFILE
+**ENGINEERING FOCUS** · C++20 · Python · data structures & algorithms · debugging · automated tests · Windows/Ubuntu CI
 
-| **ENGINEERING** | **DESIGN** | **GAME SYSTEMS** |
+> **Portfolio scope:** Independent projects using local or synthetic data. They are not official game integrations or measurements from production Riot Games systems.
+
+## ![Neon section marker](assets/neon-marker.svg) FEATURED SYSTEMS // CODE + EVIDENCE
+
+Three projects I can explain end to end, from design choices to validation and limitations.
+
+### [![01 / RIFTPULSE · C++20 / CMAKE](https://img.shields.io/badge/01%20%2F%20RIFTPULSE-C%2B%2B20%20%2F%20CMAKE-57EFFF?style=for-the-badge&labelColor=080714)](https://github.com/Preciouscrazy/riot-riftpulse)
+
+**Game telemetry analysis** · A C++20 CLI that validates match-event CSVs, aggregates statistics, identifies dense event windows, and produces reproducible JSON reports.
+
+**ENGINEERING PROOF** · Three CTest targets, including C++ and CLI regression checks · Windows and Ubuntu CI passed
+
+**EXPLORE** · [Architecture & decisions](https://github.com/Preciouscrazy/riot-riftpulse/blob/main/docs/case-study.md) · [Validation & evidence](https://github.com/Preciouscrazy/riot-riftpulse/blob/main/evidence/validation-matrix.md) · [Successful CI](https://github.com/Preciouscrazy/riot-riftpulse/actions/runs/43692186021)
+
+### [![02 / FRAMETRACE · PYTHON / PERFORMANCE](https://img.shields.io/badge/02%20%2F%20FRAMETRACE-PYTHON%20%2F%20PERFORMANCE-FF4CD3?style=for-the-badge&labelColor=080714)](https://github.com/Preciouscrazy/FrameTrace)
+
+**Frame-time diagnostics** · An offline analyzer for median and tail frame times, approximate 1% low FPS, and consecutive stutter events.
+
+**ENGINEERING PROOF** · 34 unit/CLI regression tests · Python 3.10–3.12 on Windows and Ubuntu · Local Python 3.15 validation
+
+**EXPLORE** · [Architecture & decisions](https://github.com/Preciouscrazy/FrameTrace/blob/main/docs/case-study.md) · [Validation & sample results](https://github.com/Preciouscrazy/FrameTrace/blob/main/evidence/validation.md) · [Successful CI](https://github.com/Preciouscrazy/FrameTrace/actions/runs/43693133703)
+
+### [![03 / MATCHFAIR · PYTHON / MATCHMAKING](https://img.shields.io/badge/03%20%2F%20MATCHFAIR-PYTHON%20%2F%20MATCHMAKING-B167FF?style=for-the-badge&labelColor=080714)](https://github.com/Preciouscrazy/MatchFair)
+
+**Matchmaking simulation** · Deterministic, region-scoped team balancing that shows the difference between optimizing team skill gaps and changing queue selection.
+
+**ENGINEERING PROOF** · 42 unit/CLI regression tests · Python 3.10–3.12 on Windows and Ubuntu · Local Python 3.15 validation
+
+**EXPLORE** · [Architecture & tradeoffs](https://github.com/Preciouscrazy/MatchFair/blob/main/docs/case-study.md) · [Synthetic validation](https://github.com/Preciouscrazy/MatchFair/blob/main/evidence/validation.md) · [Successful CI](https://github.com/Preciouscrazy/MatchFair/actions/runs/43694056035)
+
+## ![Neon section marker](assets/neon-marker.svg) VERIFIED C++ LAB // MORE SYSTEMS WORK
+
+| System | Engineering question | Evidence |
 |:--|:--|:--|
-| Clear, testable code; input validation; debugging | Visual hierarchy; readable interfaces; intentional presentation | Responsive play; fair systems; player-centered tools |
+| **[NetSyncLab](https://github.com/Preciouscrazy/NetSyncLab)** · C++20 | How do prediction, packet loss, and bounded retransmission affect simulated convergence? | [Case study](https://github.com/Preciouscrazy/NetSyncLab/blob/main/docs/case-study.md) · [Comparison](https://github.com/Preciouscrazy/NetSyncLab/blob/main/evidence/retransmission-comparison.csv) · [CI](https://github.com/Preciouscrazy/NetSyncLab/actions/runs/43690695394) |
+| **[ReplayForge](https://github.com/Preciouscrazy/ReplayForge)** · C++20 | Can deterministic replay identify the first divergent simulation tick? | [Design](https://github.com/Preciouscrazy/ReplayForge/blob/main/docs/design.md) · [Test evidence](https://github.com/Preciouscrazy/ReplayForge/blob/main/evidence/windows-validation.md) · [CI](https://github.com/Preciouscrazy/ReplayForge/actions/runs/43687631896) |
 
-## ![Neon section marker](assets/neon-marker.svg) CORE STACK
+Both are independent synthetic simulations with passing Windows and Ubuntu CI, not live multiplayer or networking benchmarks.
+
+## ![Neon section marker](assets/neon-marker.svg) CORE STACK // ENGINEERING FIRST
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="34" height="34" alt="C++" title="C++" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="34" height="34" alt="JavaScript" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="34" height="34" alt="HTML5" title="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="34" height="34" alt="CSS3" title="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="34" height="34" alt="Java" title="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="34" height="34" alt="PowerShell" title="PowerShell" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" width="34" height="34" alt="CMake" title="CMake" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="34" height="34" alt="Git" title="Git" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="34" height="34" alt="GitHub" title="GitHub" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" width="34" height="34" alt="PowerShell" title="PowerShell" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="34" height="34" alt="Java" title="Java" />
+</p>
+
+**DEVELOPMENT WORKBENCH** · C++20 · Python · CMake · Git/GitHub · GitHub Actions · CLI tools · CSV/JSON · unit/regression tests
+
+<details>
+<summary><strong>✦ Visual design, web & creative tools</strong></summary>
+
+My graphic-design background informs interface clarity, visual hierarchy, and how I communicate engineering results.
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="34" height="34" alt="HTML5" title="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="34" height="34" alt="CSS3" title="CSS3" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" width="34" height="34" alt="WordPress" title="WordPress" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" width="34" height="34" alt="Photoshop" title="Photoshop" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-original.svg" width="34" height="34" alt="Illustrator" title="Illustrator" />
@@ -39,70 +83,9 @@ I’m Precious — a graphic design–trained technologist building independent 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dreamweaver/dreamweaver-original.svg" width="34" height="34" alt="Dreamweaver" title="Dreamweaver" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" width="34" height="34" alt="GIMP" title="GIMP" />
   <img src="https://cdn.simpleicons.org/sketchup/57EFFF" width="34" height="34" alt="SketchUp" title="SketchUp" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="34" height="34" alt="Unreal Engine" title="Unreal Engine" />
 </p>
 
-**WORKBENCH** · C++ · Python · JavaScript · CMake · Git · GitHub Actions · telemetry · testing · interface design
-
-## ![Neon section marker](assets/neon-marker.svg) SIGNALS // GITHUB STATS
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=false&include_all_commits=true&count_private=false&show=contributions&bg_color=080714&title_color=57EFFF&text_color=E6DDF5&icon_color=FF4CD3&border_color=B167FF" alt="GitHub contribution statistics" />
-  <br />
-  <img src="profile/streak.svg" alt="GitHub contribution streak" />
-  <br />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=false&count_private=false&layout=compact&bg_color=080714&title_color=57EFFF&text_color=E6DDF5&icon_color=FF4CD3&border_color=B167FF" alt="Most-used programming languages" />
-</p>
-
-## ![Neon section marker](assets/neon-marker.svg) FEATURED SYSTEMS // SELECTED BUILDS
-
-### [![01 / RIFTPULSE · C++20 / CMAKE](https://img.shields.io/badge/01%20%2F%20RIFTPULSE-C%2B%2B20%20%2F%20CMAKE-57EFFF?style=for-the-badge&labelColor=080714)](https://github.com/preciouscrazy/riot-riftpulse)
-
-**SYSTEM READOUT** · Game telemetry analysis
-
-A command-line match-event analyzer that validates CSV data, aggregates per-player statistics, identifies dense event windows for review, and exports structured JSON reports.
-
-**FOCUS** · Structured parsing · data modeling · deterministic reporting · error handling · automated testing
-
-### [![02 / FRAMETRACE · PYTHON / PERFORMANCE](https://img.shields.io/badge/02%20%2F%20FRAMETRACE-PYTHON%20%2F%20PERFORMANCE-FF4CD3?style=for-the-badge&labelColor=080714)](https://github.com/preciouscrazy/FrameTrace)
-
-**SYSTEM READOUT** · Frame-time diagnostics
-
-An offline tool for examining frame-time samples, calculating percentile-based metrics, approximating 1% low FPS, and identifying consecutive stutter events.
-
-**FOCUS** · Statistical summaries · reproducible analysis · threshold-based event detection · communicating measurement limitations
-
-### [![03 / MATCHFAIR · PYTHON / MATCHMAKING](https://img.shields.io/badge/03%20%2F%20MATCHFAIR-PYTHON%20%2F%20MATCHMAKING-B167FF?style=for-the-badge&labelColor=080714)](https://github.com/preciouscrazy/MatchFair)
-
-**SYSTEM READOUT** · Matchmaking simulation
-
-A deterministic, region-scoped team-balancing prototype that explores skill-rating differences and queue-wait tradeoffs using synthetic player data.
-
-**FOCUS** · Combinatorial search · deterministic tie-breaking · input validation · complexity constraints · fairness tradeoffs
-
-## ![Neon section marker](assets/neon-marker.svg) VERIFIED ENGINEERING BUILDS // TESTED SYSTEMS
-
-Focused C++20 prototypes with reproducible evidence, local Windows validation, and passing GitHub Actions checks on **Windows and Ubuntu**. The simulations use synthetic inputs; they are not production game integrations.
-
-### [![NETSYNC LAB · C++20 / NETWORKING](https://img.shields.io/badge/NETSYNC%20LAB-C%2B%2B20%20%2F%20NETWORKING-57EFFF?style=for-the-badge&labelColor=080714)](https://github.com/Preciouscrazy/NetSyncLab)
-
-**SYSTEM READOUT** · Deterministic multiplayer-network simulation
-
-Models client-side prediction, authoritative server updates, packet delay/loss/reordering, and bounded retransmission. In one documented synthetic scenario, limiting retransmission reduced attempted command entries from **33 to 27** while increasing convergence from **14 to 19 simulated ticks**—a measured design tradeoff, not a real-network latency claim.
-
-**VERIFIED** · 29 C++ unit tests · 7 CLI tests · 6 CTest checks · [Windows + Ubuntu CI](https://github.com/Preciouscrazy/NetSyncLab/actions/runs/43690695394)
-
-**EXPLORE** · [Engineering case study](https://github.com/Preciouscrazy/NetSyncLab/blob/main/docs/case-study.md) · [Comparison evidence](https://github.com/Preciouscrazy/NetSyncLab/blob/main/evidence/retransmission-comparison.csv)
-
-### [![REPLAYFORGE · C++20 / DETERMINISM](https://img.shields.io/badge/REPLAYFORGE-C%2B%2B20%20%2F%20DETERMINISM-FF4CD3?style=for-the-badge&labelColor=080714)](https://github.com/Preciouscrazy/ReplayForge)
-
-**SYSTEM READOUT** · Deterministic gameplay replay and divergence detection
-
-Simulates two players on an 8×8 grid, records per-tick actions and reproducible state checksums, and reports the **first divergent tick** when playback disagrees with a stored replay. Recording stages output safely for ordinary single-process use and refuses to overwrite existing files.
-
-**VERIFIED** · 13 C++ unit tests · 8 CLI integration tests · 3 CTest checks · [Windows + Ubuntu CI](https://github.com/Preciouscrazy/ReplayForge/actions/runs/43687631896)
-
-**EXPLORE** · [Design decisions](https://github.com/Preciouscrazy/ReplayForge/blob/main/docs/design.md) · [Windows test evidence](https://github.com/Preciouscrazy/ReplayForge/blob/main/evidence/windows-validation.md)
+</details>
 
 ## ![Neon section marker](assets/neon-marker.svg) GAME-SYSTEMS LAB
 
@@ -115,22 +98,24 @@ Simulates two players on an 8×8 grid, records per-tick actions and reproducible
 
 > **Scope note:** These are independent educational prototypes using local or synthetic data. They are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Scores and flags are analytical signals, not proof of misconduct or causation.
 
-## ![Neon section marker](assets/neon-marker.svg) BUILD PROTOCOL
+## ![Neon section marker](assets/neon-marker.svg) SIGNALS // GITHUB ACTIVITY
 
-```text
-01  SCAN       Identify a player or engineering problem
-02  DESIGN     Define data, constraints, and a useful interface
-03  BUILD      Implement a focused, testable prototype
-04  VALIDATE   Run tests, examine edge cases, measure behavior
-05  REFINE     Document limitations and improve the design
-```
+<details>
+<summary><strong>View contribution and language cards</strong></summary>
+
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=Preciouscrazy&theme=dark&hide_border=false&include_all_commits=true&count_private=false&show=contributions&bg_color=080714&title_color=57EFFF&text_color=E6DDF5&icon_color=FF4CD3&border_color=B167FF" alt="GitHub contribution statistics" />
+  <br />
+  <img src="profile/streak.svg" alt="GitHub contribution streak" />
+  <br />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Preciouscrazy&theme=dark&hide_border=false&count_private=false&layout=compact&bg_color=080714&title_color=57EFFF&text_color=E6DDF5&icon_color=FF4CD3&border_color=B167FF" alt="Most-used programming languages" />
+</p>
+
+</details>
 
 ## ![Neon section marker](assets/neon-marker.svg) CURRENT FOCUS
 
-- Deepening my C++ and Python software engineering fundamentals.
-- Improving automated testing, performance measurement, and technical documentation.
-- Learning how game systems balance responsiveness, reliability, fairness, and usability.
-- Building practical, clearly scoped projects for gaming-industry software engineering roles.
+I’m sharpening algorithms, C++ and Python fundamentals, debugging, testing, and technical communication for software engineering roles in games. My goal is to show **how I built a system, what I verified, and where its limitations are**.
 
 ---
 
@@ -138,6 +123,6 @@ Simulates two players on an 8×8 grid, records per-tick actions and reproducible
 
 **PRECIOUS // PLAYER-FIRST ENGINEERING · VISUAL DESIGN · GAME SYSTEMS**
 
-[Explore my repositories](https://github.com/preciouscrazy?tab=repositories)
+[Explore all repositories](https://github.com/Preciouscrazy?tab=repositories)
 
 </div>
