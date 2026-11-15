@@ -115,11 +115,6 @@ Simulates two players on an 8×8 grid, records per-tick actions and reproducible
 
 > **Scope note:** These are independent educational prototypes using local or synthetic data. They are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Scores and flags are analytical signals, not proof of misconduct or causation.
 
-## ![Neon section marker](assets/neon-marker.svg) CREATIVE PLAYGROUND
-
-**Mini Clash — browser fighting-game prototype**  
-An original interactive game concept featuring movement, attacks, blocking, health management, and a CPU opponent. Built with JavaScript, HTML, and CSS. The repository is being prepared for publication.
-
 ## ![Neon section marker](assets/neon-marker.svg) BUILD PROTOCOL
 
 ```text
