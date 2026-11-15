@@ -80,6 +80,30 @@ A deterministic, region-scoped team-balancing prototype that explores skill-rati
 
 **FOCUS** · Combinatorial search · deterministic tie-breaking · input validation · complexity constraints · fairness tradeoffs
 
+## ![Neon section marker](assets/neon-marker.svg) VERIFIED ENGINEERING BUILDS // TESTED SYSTEMS
+
+Focused C++20 prototypes with reproducible evidence, local Windows validation, and passing GitHub Actions checks on **Windows and Ubuntu**. The simulations use synthetic inputs; they are not production game integrations.
+
+### [![NETSYNC LAB · C++20 / NETWORKING](https://img.shields.io/badge/NETSYNC%20LAB-C%2B%2B20%20%2F%20NETWORKING-57EFFF?style=for-the-badge&labelColor=080714)](https://github.com/Preciouscrazy/NetSyncLab)
+
+**SYSTEM READOUT** · Deterministic multiplayer-network simulation
+
+Models client-side prediction, authoritative server updates, packet delay/loss/reordering, and bounded retransmission. In one documented synthetic scenario, limiting retransmission reduced attempted command entries from **33 to 27** while increasing convergence from **14 to 19 simulated ticks**—a measured design tradeoff, not a real-network latency claim.
+
+**VERIFIED** · 29 C++ unit tests · 7 CLI tests · 6 CTest checks · [Windows + Ubuntu CI](https://github.com/Preciouscrazy/NetSyncLab/actions/runs/43690695394)
+
+**EXPLORE** · [Engineering case study](https://github.com/Preciouscrazy/NetSyncLab/blob/main/docs/case-study.md) · [Comparison evidence](https://github.com/Preciouscrazy/NetSyncLab/blob/main/evidence/retransmission-comparison.csv)
+
+### [![REPLAYFORGE · C++20 / DETERMINISM](https://img.shields.io/badge/REPLAYFORGE-C%2B%2B20%20%2F%20DETERMINISM-FF4CD3?style=for-the-badge&labelColor=080714)](https://github.com/Preciouscrazy/ReplayForge)
+
+**SYSTEM READOUT** · Deterministic gameplay replay and divergence detection
+
+Simulates two players on an 8×8 grid, records per-tick actions and reproducible state checksums, and reports the **first divergent tick** when playback disagrees with a stored replay. Recording stages output safely for ordinary single-process use and refuses to overwrite existing files.
+
+**VERIFIED** · 13 C++ unit tests · 8 CLI integration tests · 3 CTest checks · [Windows + Ubuntu CI](https://github.com/Preciouscrazy/ReplayForge/actions/runs/43687631896)
+
+**EXPLORE** · [Design decisions](https://github.com/Preciouscrazy/ReplayForge/blob/main/docs/design.md) · [Windows test evidence](https://github.com/Preciouscrazy/ReplayForge/blob/main/evidence/windows-validation.md)
+
 ## ![Neon section marker](assets/neon-marker.svg) GAME-SYSTEMS LAB
 
 | **PROJECT** | **EXPERIMENT** | **TOOLS** |
@@ -90,11 +114,6 @@ A deterministic, region-scoped team-balancing prototype that explores skill-rati
 | [RiftGuard](https://github.com/preciouscrazy/RiftGuard) | Explores reliability monitoring and event-based diagnostic signals | Python · monitoring · event analysis |
 
 > **Scope note:** These are independent educational prototypes using local or synthetic data. They are not official Riot Games integrations, production matchmaking services, anti-cheat tools, or validated bot detectors. Scores and flags are analytical signals, not proof of misconduct or causation.
-
-## ![Neon section marker](assets/neon-marker.svg) CREATIVE PLAYGROUND
-
-**Mini Clash — browser fighting-game prototype**  
-An original interactive game concept featuring movement, attacks, blocking, health management, and a CPU opponent. Built with JavaScript, HTML, and CSS. The repository is being prepared for publication.
 
 ## ![Neon section marker](assets/neon-marker.svg) BUILD PROTOCOL
 
